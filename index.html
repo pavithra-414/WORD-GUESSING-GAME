@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>🎮 Word Guessing Game</h1>
+<h3>Developed by:PAVITHRA,SANJUSHREE    </h3>
+
+<p>Hint: Word starts with "{{ hint }}"</p>
+
+<h2>{{ display }}</h2>
+<p>Attempts left: {{ attempts }}</p>
+
+<form method="POST">
+    <input type="text" name="letter" maxlength="1" required>
+    <button type="submit">Guess</button>
+</form>
+
+<h2 class="message">{{ message }}</h2>
+
+<a href="/restart">
+    <button>Restart Game</button>
+</a>
+
+</body>
+</html>
