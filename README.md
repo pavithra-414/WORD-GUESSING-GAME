@@ -2,9 +2,9 @@
 A Simple word guessing game developed using python and flask
  
  FEATURES: 
- Random word selection
- user-friendly interface
- fun and interactive gameplay
+ .Random word selection
+ .user-friendly interface
+ .fun and interactive gameplay
 
 TECHNOLOGIES USED:
 .python
